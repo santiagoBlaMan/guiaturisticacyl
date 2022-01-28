@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<!--
+Autor: Santiago Blanco Manteca
+Fecha: 02/01/2022
+e-mail: santiago.blaman@educa.jcyl.es
+Descripción: Actividad 6 | Lenguaje de Marcas ASIR-1 (diurno) | Profesor: Valentín Estanislao Sesma Berhó
+-->
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+            <title>Segovia - T.CyL</title>
+    </head>
+    <body>
+        
+        <h3>Bienvenid@s a una actividad de ASIR-1</h3>
+
+        <h1 id="arriba">Turismo en Castilla y León - SEGOVIA</h1>
+
+        <table>
+            <tr>
+                <th>Autor:</th>
+                <td>Santiago Blanco Manteca</td>
+                <th>Fecha:</th>
+                <td>28/01/2022</td>
+            </tr>
+        </table>
+
+        <table style="width:100%">
+            <tr>
+                <td style="width:20%">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="../index.html">Inicio</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../leoon/leoon.html">León</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../zamora/zamora.html">Zamora</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../salamanca/salamanca.html">Salamanca</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../aavila/aavila.html">Ávila</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../soria/soria.html">Soria</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../burgos/burgos.html">Burgos</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../palencia/palencia.html">Palencia</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../valladolid/valladolid.html">Valladolid</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="../contacto/contacto.html">Contacto</a>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+                <td style="width:80%">
+                
+                    <!--La siguiente tabla la he hecho para poder seleccionar lo que el usuario quiere ver y le bajaría al apartado. A parte, a la derecha de esta lista está el escudo y bandera de la provincia.-->
+                    <table style="width:100%" >
+                        <tr>
+                            <th style="width:40%">
+                                <h4>Selecciona lo que desea ver:</h4>
+                                <a href="#localizacioon">Localización</a>
+                                <br>
+                                <a href="#locaprincipales">Localidades principales</a>
+                                <br>
+                                <a href="#geograprovincia">Geografía de la provincia</a>
+                                <br>
+                                <a href="#historia">Historia</a>
+                                <br>
+                                <a href="#cultura">Cultura</a>
+                                <br>
+                                <a href="#naturaleza">Naturaleza</a>
+                                <br>
+                                <a href="#tradiciones">Tradiciones</a>
+                                <br>
+                                <a href="#aspinteres">Otros aspectops de interés</a>
+                                <br>
+                            </th>
+
+                            <td style="width:60%">
+                                <!--Aquí creo una tabla, para ordenar mejor el escudo y la bandera, junto a su fuente de la imágen.-->
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <img src="./media_segovia/escudo_segovia.png" height="100">
+                                        </th>
+                                        <th>
+                                            <img src="./media_segovia/bandera_segovia.png" height="100">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <h6>Fuente de la imágen: <a href="https://es.wikipedia.org/wiki/Provincia_de_Segovia#/media/Archivo:Escudo_de_la_provincia_de_Segovia.svg">Escudo de Segovia</a></h6>
+                                        </th>
+                                        <th>
+                                            <h6>Fuente de la imágen: <a href="https://es.wikipedia.org/wiki/Provincia_de_Segovia#/media/Archivo:Flag_Segovia_province.svg">Bandera de Segovia</a></h6>
+                                        </th>
+                                    </tr>
+                                </table>
+                                
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br><br>
+
+                    <!--A partir de aquí, están los apartados con toda la información de la provincia-->
+                    <h2 id="localizacioon">Localización</h2>
+                        <p>
+                            Segovia es una provincia española perteneciente a la comunidad autónoma de Castilla y León, situada al norte del sistema Central que divide en dos la altiplanicie del centro de la península ibérica. Su capital es la ciudad homónima de Segovia. Limita al norte con las provincias de Valladolid y Burgos, al este con Soria y Guadalajara, al sur con la Comunidad de Madrid, y al oeste con Ávila.
+                        </p>
+                        <!--Este iframe es para mostrar un mapa de la provincia de google maps. Debajo, pongo las cordenadas de esta misma y si pinchas en ellas, te lleva al misma mapa pero en al web de google maps.-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770012.6264812663!2d-4.8561940925854215!3d41.0720129521647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd414eea622591af%3A0x30587075af3cbb0!2sSegovia!5e0!3m2!1ses-419!2ses!4v1643225205100!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <br>
+                        🧭 ➡ <a href="https://goo.gl/maps/Kp5eZaHXweVghea86">41°10′00″N 4°00′00″O</a>
+                            <br><br>
+                        <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                            <br>
+
+                    <h2 id="locaprincipales">Localidades principales</h2>
+                        <p>Segovia ● Cuéllar ● El Espinar ● Palazuelos de Eresma</p>
+                            <br>
+                        <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                            <br>
+
+                    <h2 id="geograprovincia">Geografía de la provincia</h2>
+                        <p>La provincia está surcada por diferentes cursos de agua que nacen en las alturas de la sierra de Guadarrama y que, con la excepción de algunos pocos arroyos que discurren en dirección suroeste pertenecientes a la cuenca hidrográfica del Tajo, discurren en dirección sureste-noreste por el llano de la Meseta Norte, todos ellos pertenecientes a la cuenca hidrográfica de Duero. Entre ellos se encuentran el río Eresma, que pasa por la capital provincial, y el Duratón con sus conocidas «hoces», además del Cega, el Riaza y el Voltoya.</p>
+                        <p>Al río Riaza desaguan el Aguisejo (también llamado Grado o Ayllón), el Riaguas y los demás arroyos que bañan el partido de su nombre, saliendo de la provincia por el término de Montejo de la Vega de Serrezuela y entrando en el Duero cerca de Roa. Entre los afluentes del Duratón están el Serrano, Castilla, Prádena y los demás arroyos del partido de Sepúlveda; sale por el término de Laguna de Contreras, y entra en el Duero cerca de Peñafiel. El Cega recibe las aguas del Cerquilla y multitud de arroyos de Cuéllar y Segovia; sale por el término de la Mata de Cuéllar y entra en el Duero, cerca de Puente Duero. El Pirón tiene como tributario al arroyo de Polendos, el Maluca y otros en los mismos partidos de Segovia y Cuéllar, reuniéndose con el Cega al salir este de la provincia. A la cuenca del Eresma pertenecen el Riofrío, Milanillos, Moros, Ciguiñuela, Cambrones y el Voltoya con todos los arroyos del partido de Santa María la Real de Nieva y otros muchos del partido de Segovia; sale de la provincia, siendo línea divisoria entre el partido de Santa María y el de Cuéllar. Este río entra en la provincia de Valladolid y desemboca en el Adaja.</p>
+                        <br>
+                    <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                        <br>
+
+                    <h2 id="historia">Historia</h2>
+                        <p>El poblamiento humano en el entorno de lo que hoy es Segovia se remonta a hace unos 50 000 años, fecha en que ha sido datada la ocupación neandertal de los yacimientos del Abrigo del Molino y el Abrigo de San Lázaro, en el valle del Eresma, a tan solo 500 m del emplazamiento del alcázar. Fueron pues, los neandertales, los primeros en ocupar el territorio de lo que con el tiempo se convirtió en la ciudad de Segovia.</p>
+                        <p>Cerca de este abrigo, en la cueva de la Tarascona y en otros emplazamientos al aire libre en el entorno periurbano de Segovia, se localizan evidencias del Calcolítico y la Edad del Bronce. En el lugar que hoy ocupa el alcázar existía un castro celtíbero, del que se conocen algunas evidencias, como su posible foso. Durante la época romana, Segovia pertenecía al convento jurídico de Clunia. En la Hispania visigoda fue sede episcopal de la Iglesia católica, sufragánea de la Archidiócesis de Toledo que comprendía la antigua provincia romana de Cartaginense en la diócesis de Hispania.</p>
+                        <p>Se cree que la ciudad fue abandonada tras la invasión islámica. Tras la conquista de Toledo por Alfonso VI de León, el yerno del rey Alfonso VI, el conde Raimundo de Borgoña, junto con el primer obispo de su reconstituida diócesis, empezó la repoblación de Segovia en 1088 con cristianos procedentes del norte de la península y de más allá de los Pirineos, dotándola de un amplio concejo cuyas tierras cruzaban la sierra de Guadarrama e incluso la línea del Tajo.</p>
+                        <h6>Más información sobre la histora de Segovia:<a href="https://es.wikipedia.org/wiki/Segovia#Historia">Wikipedia Segovia | Historia</a></h6>
+                        <br>
+                    <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                        <br>
+
+                    <h2 id="cultura">Cultura</h2>
+                        <p>Segovia, cuya ciudad vieja y acueducto romano están declarados Patrimonio Mundial por la UNESCO, se encuentra situada en una elevación del terreno, entre los cauces de los ríos Eresma y Clamores. Además del famoso Acueducto, multitud de iglesias románicas, Catedral y Alcázar componen un majestuoso paisaje que domina estas tierras castellanas. Su moderno Parador de Turismo es uno de los mejores lugares donde el viajero puede degustar el plato más típico de la ciudad: el cochinillo al horno. Asimismo, Segovia es un excelente punto de partida para recorrer la provincia y acercarse al palacio de La Granja o al Parque Natural de las Hoces del Río Duratón, entre otras opciones.</p>
+                        <h6>Más información sobre la cultura de Segovia:<a href="http://www.xn--espaaescultura-tnb.es/es/destinos/segovia.html">españaescultura.es | Segovia</a></h6>
+                        <br>
+                    <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                        <br>
+
+                    <h2 id="naturaleza">Naturaleza</h2>
+                        <p>La provincia de Segovia ofrece a los amantes de la naturaleza unos grandes espacios naturales y áreas recreativas. A las extensas llanuras cerealísticas, típicas de los campos castellanos, se suman los grandes pinares, los paisajes serranos formados por pastos, encinas y pinos o las frescas riberas de los ríos, perfiladas por choperas o escarpados acantilados formados por la erosión del agua y el paso de los años. Parques Naturales como las Hoces del Duratón o las Hoces del Riaza, el Parque Nacional de Guadarrama o la Sierra de Ayllón, son garantías suficientes para conseguir un buen plan natural con éxito. Además, también lugares perfectos para la realización de senderismo, rutas cortas o largas, para todos los gustos.</p>
+                        <h6>Más información sobre la naturaleza de Segovia:<a href="https://www.segoviaunbuenplan.com/espacios-naturales-segovia/">Segovia un Buen Plan | Espacio Naturales y Áreas Recreativas</a></h6>
+                        <br>
+                    <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                        <br>
+
+                    <h2 id="tradiciones">Tradiciones</h2>
+                        <p>La provincia de Segovia, destaca principalmente por sus asados, tanto cordero como cochinillo de Segovia. Otros platos típicos son el chorizo de Cantimpalos, los judiones de La Granja, las sopas de ajo, y como postre el afamado ponche segoviano. El producto hortícola segoviano más conocido es el guisante.</p>
+                        <iframe width="1110" height="624" src="https://www.youtube.com/embed/bq7vH-ql5h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h4>Fuente del vídeo: <a href="https://www.youtube.com/watch?v=bq7vH-ql5h8">YouTube | Como cortan el cochinillo en Restaurante Jose Maria de Segovia</a></h4>
+                        <br>
+                    <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                        <br>
+                    <h2 id="aspinteres">Otros aspectos de interés</h2>
+                        <h3>Habitantes</h3>
+                            <p>Cuenta con una población de 153 478 habitantes (INE 2020).</p>
+                        <h3>Extensión</h3>
+                            <p>Tiene una superficie de 6920,65 km², siendo la provincia de menor extensión de Castilla y León.</p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h3>Clima</h3>
+                                        <p>El clima es mediterráneo continentalizado, con inviernos prolongados, secos y fríos, y veranos calurosos pero cortos.</p>
+                                </td>
+                                <td>
+                                    <div id="c_30ef3b9b7bcde253b24f85b77ba8db85" class="ancho"></div><script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/30ef3b9b7bcde253b24f85b77ba8db85"></script>
+                                </td>
+                            </tr>
+                        </table>
+                            <br>
+                        <h3>⬆ <a href="#arriba">Subir al menú de la provincia</a> ⬆</h3>
+                            <br>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
